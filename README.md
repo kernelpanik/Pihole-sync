@@ -17,3 +17,5 @@ piholesyncuser    ALL=(ALL:ALL) ALL
 
 4) Copy ssh key from master to slave for passwordless login  
 ssh-copy-id -i ~/.ssh/mykey piholesyncuser@pihole-slave    
+
+5) Run as root  
